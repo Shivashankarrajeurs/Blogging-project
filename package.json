@@ -1,16 +1,12 @@
 {
   "name": "blogging-project",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "api": "node server.js"
+    "dev": "vercel dev",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
     "body-parser": "^1.20.2",
